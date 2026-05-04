@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600&display=optional");*/
 
 *,
 *::before,
@@ -30,6 +30,7 @@ body {
   color: var(--text-primary);
   min-height: 100vh;
   font-size: 16px;
+  font-size-adjust: 0.5;
 }
 
 /* Navbar */
@@ -292,6 +293,7 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 12px;
+  min-height: 40px;
 }
 .price {
   font-family: var(--font-display);

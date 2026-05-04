@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = "233XXXXXXXXX"; // Replace with actual MK GADGETS WhatsApp number
+const WHATSAPP_NUMBER = "233539512172"; // Replace with actual MK GADGETS WhatsApp number
 
 let activeCategory = "All";
 const categories = ["All", ...new Set(products.map((p) => p.category))];
