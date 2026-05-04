@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MK GADGETS — Tech Store</title>
+    <meta
+      name="description"
+      content="Browse premium gadgets at MK GADGETS. Best prices on smartphones, laptops, audio, and accessories."
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="brand">MK <span>GADGETS</span></div>
+      <div class="live-status">
+        <span class="pulse-dot"></span>
+        <span id="live-time"></span>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <h1>Browse Our <span>Products</span></h1>
+      <p>
+        Find the right gadget — tap "I Want This" to order instantly on
+        WhatsApp.
+      </p>
+      <div class="search-wrap">
+        <svg
+          width="15"
+          height="15"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.5"
+        >
+          <circle cx="11" cy="11" r="8" />
+          <line x1="21" y1="21" x2="16.65" y2="16.65" />
+        </svg>
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Search products..."
+          autocomplete="off"
+        />
+      </div>
+    </div>
+
+    <div class="body">
+      <p class="section-label">Filter by category</p>
+      <nav class="cat-nav" id="category-nav"></nav>
+      <p class="product-count" id="product-count"></p>
+      <div id="product-grid"></div>
+    </div>
+
+    <footer>MK GADGETS &nbsp;·&nbsp; Accra, Ghana &nbsp;·&nbsp; © 2026</footer>
+
+    <script src="js/products.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
